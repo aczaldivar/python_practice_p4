@@ -67,7 +67,7 @@ def pascal(n):
         #first number is 1
         if i == 0:
           row.append(1)
-        #intermediate nunmbers get added from previous rows
+        #intermediate numbers get added from previous rows
         elif i > 0 and i < length-1:
           row.append(triangle[row_number-1][i-1]+triangle[row_number-1][i])
         #last number is 1
